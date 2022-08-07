@@ -1,6 +1,13 @@
 version: '3'
 
 services:
+    php8-sf6:
+        container_name: php8-sf6
+        build: php8-sf6
+        ports:
+            - "9000:8000"
+        volumes:
+            - ./:/var/www/html
     ###> symfony/mailer ###
     mailer:
         image: schickling/mailcatcher
