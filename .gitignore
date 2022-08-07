@@ -188,6 +188,7 @@ fabric.properties
 notes.txt
 
 ###> symfony/phpunit-bridge ###
+/phpunit.xml
 .phpunit.result.cache
 ###< symfony/phpunit-bridge ###
 
@@ -199,7 +200,5 @@ mysql
 
 symfony.lock
 
-###> phpunit/phpunit ###
-/phpunit.xml
-.phpunit.result.cache
-###< phpunit/phpunit ###
+php8-sf6
+
